@@ -1,6 +1,6 @@
 # coding=utf-8
 # 拨号间隔
-ADSL_CYCLE = 100
+ADSL_CYCLE = 240
 
 # 拨号出错重试间隔
 ADSL_ERROR_CYCLE = 5
@@ -33,7 +33,7 @@ PROXY_KEY = 'adsl'
 TEST_URL = 'http://www.baidu.com'
 
 # 测试超时时间
-TEST_TIMEOUT = 20
+TEST_TIMEOUT = 10
 
 # API端口
 API_PORT = 8000
