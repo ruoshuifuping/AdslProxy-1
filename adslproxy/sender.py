@@ -71,9 +71,9 @@ class Sender():
         :return: None
         """
         while True:
-            print('ADSL Start, Remove Proxy, Please wait')
-            time.sleep(15)
+            print('ADSL Start, Remove Proxy, Please wait')            
             self.remove_proxy()
+            time.sleep(15)
             (status, output) = subprocess.getstatusoutput(ADSL_BASH)
             if status == 0:
                 print('ADSL Successfully')
