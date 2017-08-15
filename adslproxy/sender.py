@@ -72,6 +72,7 @@ class Sender():
         """
         while True:
             print('ADSL Start, Remove Proxy, Please wait')
+            time.sleep(15)
             self.remove_proxy()
             (status, output) = subprocess.getstatusoutput(ADSL_BASH)
             if status == 0:
